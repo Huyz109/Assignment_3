@@ -1,0 +1,138 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Mobile */
+@media (max-width:767px) {
+    .padding {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .section {
+        padding: 60px 12px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .col-t4, .col-t6, .col-t12 {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    #comment {
+        padding: 80px 12px;
+    }
+
+    #join-us form, #join-us input {
+        width: 100%;
+    }
+
+    .subcribe-btn a {
+        padding: 9px 24px;
+    }
+
+    footer .row {
+        display: block;
+    }
+    
+    .footer {
+        display: block;
+        text-align: center;
+        line-height: 2;
+        padding: 24px 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:989px) {
+    .col-t4 {
+        flex: 0 0 auto;
+        width: calc(100%/3);
+    }
+
+    .col-t6 {
+        flex: 0 0 auto;
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 24px;
+    }
+
+    .col-t12 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    #skills .col-6 {
+        width: 100%;
+    }
+
+    /* Portfolio */
+    .img-list {
+        display: none;
+    }
+
+    .row-t {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-list-t .col-t6 {
+        padding: 0;
+    }
+
+    iframe {
+        margin-bottom: 24px;
+    }
+}
+
+/* PC */
+@media (min-width:990px) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-4 {
+        flex: 0 0 auto;
+        width: calc(100%/3);
+        margin-bottom: 24px;
+    }
+
+    .col-3 {
+        flex: 0 0 auto;
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-2 {
+        flex: 0 0 auto;
+        width: calc(100%/6);
+        text-align: center;
+    }
+
+    /* Header */
+    .menu-list {
+        display: flex;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    /* Porfolio */
+    .row-t {
+        display: none;
+    }
+}
